@@ -6,7 +6,7 @@ import {
   Link
 } from 'react-router-dom'
 import { Global, ThemeProvider } from '@emotion/react'
-import { reset, theme } from './styles'
+import { reset, theme } from '~/styles'
 
 const App: React.FC = () => {
   return (
