@@ -8,7 +8,7 @@ import {
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         Hello World
         <nav>
