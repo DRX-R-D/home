@@ -7,11 +7,13 @@ import {
 } from 'react-router-dom'
 import { Global, ThemeProvider } from '@emotion/react'
 import { reset, theme } from '~/styles'
+import { HeaderBar } from '~/components'
 
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <Global styles={[reset]} />
+      <HeaderBar />
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <nav>
