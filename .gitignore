@@ -20,6 +20,7 @@
 
 .idea
 
+# dotenv environment variables file
 .env
 
 npm-debug.log*
